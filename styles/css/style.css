@@ -61,4 +61,17 @@ main .section_main_top .item_section_main_top .item__image_section_main_top .inf
   word-spacing: 5px;
 }
 
+footer .social_media {
+  background-color: white;
+  border: 1px solid white;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 8px;
+}
+footer .social_media img {
+  width: 80px;
+}
+
 /*# sourceMappingURL=style.css.map */
