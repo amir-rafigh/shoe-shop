@@ -2,3 +2,12 @@
 @import "responsive";
 @import "mixin";
 
+body{
+    background-color: #141213;
+}
+.section_header{
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+}

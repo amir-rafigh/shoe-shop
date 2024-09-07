@@ -12,5 +12,18 @@
   font-family: "Yekan";
   src: url(../../assets/fonts/Yekan.ttf) format(truetype);
 }
+.container_size {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #141213;
+}
+
+.section_header .image {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */
