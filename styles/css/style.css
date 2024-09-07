@@ -26,4 +26,32 @@ body {
   justify-content: center;
 }
 
+main .section_main_top {
+  background-color: gray;
+  height: 800px;
+  max-width: 100%;
+}
+main .section_main_top h1 {
+  color: #df9744;
+  text-transform: capitalize;
+  font-family: "lalehzar";
+  padding: 2rem;
+  font-size: 3.5rem;
+}
+main .section_main_top .item_section_main_top {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+main .section_main_top .item_section_main_top .item__image_section_main_top {
+  width: 100%;
+  height: 480px;
+  background-color: red;
+  padding: 8px;
+  border: 1px solid black;
+}
+main .section_main_top .item_section_main_top .item__image_section_main_top img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
