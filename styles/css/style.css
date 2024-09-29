@@ -25,6 +25,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.section_header .image img {
+  width: 100%;
+}
 
 main .section_main_top {
   max-width: 100%;
@@ -37,10 +40,10 @@ main .section_main_top h1 {
   font-size: 3.5rem;
 }
 main .section_main_top .item_section_main_top {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 4rem;
 }
 main .section_main_top .item_section_main_top .item__image_section_main_top {
   width: 100%;

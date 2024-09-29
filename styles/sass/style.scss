@@ -9,7 +9,11 @@ body{
     .image{
         display: flex;
         justify-content: center;
+        img{
+            width: 100%;
+        }
     }
+
 }
 
 
@@ -28,10 +32,11 @@ main{
 
 
         .item_section_main_top{
-            width: 100%;
+            // width: 100%;
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit,300px);
+            justify-content: center;
+            gap: 4rem;
             // width: 100%;
 
             .item__image_section_main_top{
